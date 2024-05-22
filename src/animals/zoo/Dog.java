@@ -2,8 +2,10 @@ package animals.zoo;
 
 public class Dog extends Animal {
 
+    //attributi
 
 
+    //costruttore
     public Dog(String name) {
         super(name);
     }

@@ -16,7 +16,7 @@ public abstract class Animal {
     public abstract void makeSound();
 
     public void sleep() {
-        System.out.println(name + " fa Zzzzzzz");
+        System.out.println("zzz");
     }
 
     public abstract void eats();

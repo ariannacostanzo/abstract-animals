@@ -1,6 +1,6 @@
 package animals.zoo;
 
-public class Eagle extends Animal{
+public class Eagle extends Animal implements CanFly{
 
     //attributi
 
@@ -22,6 +22,11 @@ public class Eagle extends Animal{
     @Override
     public void eats() {
         System.out.println(name + " sta mangiando vermi");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Sto volando!!");
     }
 
 

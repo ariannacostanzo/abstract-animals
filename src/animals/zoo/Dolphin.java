@@ -1,6 +1,6 @@
 package animals.zoo;
 
-public class Dolphin extends Animal{
+public class Dolphin extends Animal implements CanSwim{
 
     //attributi
 
@@ -19,5 +19,10 @@ public class Dolphin extends Animal{
     @Override
     public void eats() {
         System.out.println(name + " sta mangiando calamari");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Sto nuotando!!");
     }
 }
